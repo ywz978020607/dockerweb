@@ -382,3 +382,144 @@
 1:M 18 Apr 2022 13:37:08.779 * DB saved on disk
 1:M 18 Apr 2022 13:37:08.781 * Removing the pid file.
 1:M 18 Apr 2022 13:37:08.783 # Redis is now ready to exit, bye bye...
+1:C 18 Apr 2022 16:08:11.282 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Apr 2022 16:08:11.284 # Redis version=6.9.242, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Apr 2022 16:08:11.285 # Configuration loaded
+1:M 18 Apr 2022 16:08:11.288 * monotonic clock: POSIX clock_gettime
+1:M 18 Apr 2022 16:08:11.292 * Running mode=standalone, port=6379.
+1:M 18 Apr 2022 16:08:11.294 # Server initialized
+1:M 18 Apr 2022 16:08:11.296 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 18 Apr 2022 16:08:11.310 * Reading RDB base file on AOF loading...
+1:M 18 Apr 2022 16:08:11.312 * Loading RDB produced by version 6.9.242
+1:M 18 Apr 2022 16:08:11.315 * RDB age 20500 seconds
+1:M 18 Apr 2022 16:08:11.318 * RDB memory usage when created 0.82 Mb
+1:M 18 Apr 2022 16:08:11.320 * RDB is base AOF
+1:M 18 Apr 2022 16:08:11.323 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 18 Apr 2022 16:08:11.326 * DB loaded from base file appendonly.aof.1.base.rdb: 0.019 seconds
+1:M 18 Apr 2022 16:08:11.331 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.004 seconds
+1:M 18 Apr 2022 16:08:11.335 * Ready to accept connections
+1:M 18 Apr 2022 16:08:16.253 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:21.269 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:26.285 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:31.302 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:36.319 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:41.334 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:46.350 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:51.366 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:08:56.382 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:01.398 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:06.418 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:11.438 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:16.455 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:21.470 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:26.486 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:31.502 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:36.519 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:41.535 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:46.551 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:51.567 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:09:56.582 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:01.601 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:06.618 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:11.632 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:16.648 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:21.666 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:26.684 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:31.700 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:36.715 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:41.733 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:46.749 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:51.767 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:10:56.785 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:01.802 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:06.845 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:11.863 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:16.881 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:21.901 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:26.922 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:31.943 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:36.959 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:41.977 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:46.992 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:52.009 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:11:57.027 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:02.043 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:07.060 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:12.077 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:17.093 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:22.139 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:27.162 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:32.178 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:37.193 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:42.210 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:47.225 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:52.239 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:12:57.255 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:02.273 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:07.291 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:12.306 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:17.323 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:22.339 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:27.356 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:32.374 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:37.393 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:42.410 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:47.427 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:52.444 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:13:57.463 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:02.484 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:07.499 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:12.514 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:17.531 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:22.546 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:27.563 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:32.580 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:37.596 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:42.613 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:47.631 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:52.647 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:14:57.662 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:02.678 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:07.695 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:12.712 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:17.728 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:22.745 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:27.760 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:32.775 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:37.791 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:42.809 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:47.827 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:52.843 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:15:57.859 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:02.876 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:07.891 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:12.907 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:17.923 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:22.939 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:27.954 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:32.971 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:37.988 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:43.006 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:48.021 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:53.037 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:16:58.054 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:03.070 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:08.088 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:13.105 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:18.123 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:23.141 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:28.158 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:33.177 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:38.194 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:43.210 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:48.226 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:53.242 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:17:58.259 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:03.275 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:08.292 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:13.309 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:18.325 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:23.341 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:28.357 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:33.371 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 16:18:38.387 - DB 0: 1 keys (0 volatile) in 4 slots HT.

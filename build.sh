@@ -13,9 +13,13 @@ apt-get install -y python3-pip
 
 # pip3 install -r /tmp/requirements.txt
 
-###
-# pip install pytorch or tensorflow here~
-# https://pytorch.org/get-started/previous-versions/
-# or
-# conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-# pip3 install tensorflow
+# -------------
+
+
+# 设置环境变量
+# echo '
+# #MAVEN_HOME
+# export MAVEN_HOME=/workshop/maven/apache-maven-3.3.9
+# export MAVEN_OPTS="-Xms256m -Xmx512m"
+# export PATH=${MAVEN_HOME}/bin:$PATH ' >> /root/.bashrc
+# source /root/.bashrc
