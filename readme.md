@@ -1,6 +1,6 @@
 # dockerweb
 ## 创建初衷
-兼容win/mac/linux的多种docker编排环境，方便web前后端开发基本环境搭建及部署、迁移。不需要特殊化安装各个软件，考虑不同平台的差异性，在win平台也可以预先安装docker-for-windows后使用本项目。
+兼容win/mac/linux的web开发常用软件的docker编排环境(mysql+redis+nginx+ubuntu)，在ubuntu下自定义安装其他内联应用，如web后端框架django/flask/nodejs/spring等，方便web开发调试基本环境搭建及部署、迁移。不需要特殊化安装各个软件，充分考虑不同平台的差异性，在win平台也可以预先安装docker-for-windows后使用本项目，便于打包迁移。
 
 ## 使用说明
 本目录下创建datadir文件夹以及datadir/mysql、datadir/redis空文件夹，分别对应自动挂载mysql和redis，实现宿主机直接持久化  
