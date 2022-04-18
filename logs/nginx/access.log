@@ -1,0 +1,8 @@
+172.18.0.1 - - [18/Apr/2022:10:36:02 +0000] "GET /soft HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:10:36:02 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://127.0.0.1/soft" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:10:36:03 +0000] "GET /soft HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:10:36:05 +0000] "GET / HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:10:36:53 +0000] "GET / HTTP/1.1" 200 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:10:36:54 +0000] "GET / HTTP/1.1" 200 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:10:36:55 +0000] "GET /soft/ HTTP/1.1" 200 156 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"
+172.18.0.1 - - [18/Apr/2022:11:55:09 +0000] "GET / HTTP/1.1" 200 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" "-"

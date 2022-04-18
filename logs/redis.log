@@ -1,0 +1,199 @@
+1:C 18 Apr 2022 08:28:45.308 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Apr 2022 08:28:45.312 # Redis version=6.9.242, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Apr 2022 08:28:45.316 # Configuration loaded
+1:M 18 Apr 2022 08:28:45.322 * monotonic clock: POSIX clock_gettime
+1:M 18 Apr 2022 08:28:45.332 * Running mode=standalone, port=6379.
+1:M 18 Apr 2022 08:28:45.336 # Server initialized
+1:M 18 Apr 2022 08:28:45.339 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 18 Apr 2022 08:28:45.343 * The AOF directory appendonlydir doesn't exist
+1:M 18 Apr 2022 08:28:45.353 * SYNC append only file rewrite performed
+1:M 18 Apr 2022 08:28:45.360 * Ready to accept connections
+1:M 18 Apr 2022 08:29:45.475 - Accepted 172.18.0.1:48402
+1:M 18 Apr 2022 08:30:42.134 - Accepted 172.18.0.1:48404
+1:M 18 Apr 2022 08:30:57.621 - Accepted 172.18.0.1:48406
+1:M 18 Apr 2022 09:36:57.700 - Client closed connection id=4 addr=172.18.0.1:48404 laddr=172.18.0.2:6379 fd=9 name=127.0.0.1@6379 age=3975 idle=1 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=8192 rbp=4096 obl=0 oll=0 omem=0 tot-mem=29440 events=r cmd=info user=default redir=-1 resp=2
+1:signal-handler (1650277584) Received SIGTERM scheduling shutdown...
+1:M 18 Apr 2022 10:26:24.306 # User requested shutdown...
+1:M 18 Apr 2022 10:26:24.311 * Calling fsync() on the AOF file.
+1:M 18 Apr 2022 10:26:24.316 * Saving the final RDB snapshot before exiting.
+1:M 18 Apr 2022 10:26:24.328 * DB saved on disk
+1:M 18 Apr 2022 10:26:24.332 * Removing the pid file.
+1:M 18 Apr 2022 10:26:24.339 # Redis is now ready to exit, bye bye...
+1:C 18 Apr 2022 10:26:31.108 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Apr 2022 10:26:31.113 # Redis version=6.9.242, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Apr 2022 10:26:31.118 # Configuration loaded
+1:M 18 Apr 2022 10:26:31.124 * monotonic clock: POSIX clock_gettime
+1:M 18 Apr 2022 10:26:31.136 * Running mode=standalone, port=6379.
+1:M 18 Apr 2022 10:26:31.141 # Server initialized
+1:M 18 Apr 2022 10:26:31.146 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 18 Apr 2022 10:26:31.155 * The AOF directory appendonlydir doesn't exist
+1:M 18 Apr 2022 10:26:31.191 * SYNC append only file rewrite performed
+1:M 18 Apr 2022 10:26:31.217 * Ready to accept connections
+1:M 18 Apr 2022 12:34:30.604 - Accepted 172.18.0.1:48944
+1:M 18 Apr 2022 12:34:30.657 - Accepted 172.18.0.1:48946
+1:M 18 Apr 2022 12:34:46.297 * 1 changes in 900 seconds. Saving...
+1:M 18 Apr 2022 12:34:46.302 * Background saving started by pid 14
+14:C 18 Apr 2022 12:34:46.305 - Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+14:C 18 Apr 2022 12:34:46.315 * DB saved on disk
+14:C 18 Apr 2022 12:34:46.317 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 18 Apr 2022 12:34:46.406 * Background saving terminated with success
+1:M 18 Apr 2022 12:34:50.330 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:34:55.358 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:35:00.388 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:35:05.415 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:signal-handler (1650285309) Received SIGTERM scheduling shutdown...
+1:M 18 Apr 2022 12:35:09.741 # User requested shutdown...
+1:M 18 Apr 2022 12:35:09.744 * Calling fsync() on the AOF file.
+1:M 18 Apr 2022 12:35:09.749 * Saving the final RDB snapshot before exiting.
+1:M 18 Apr 2022 12:35:09.761 * DB saved on disk
+1:M 18 Apr 2022 12:35:09.764 * Removing the pid file.
+1:M 18 Apr 2022 12:35:09.766 # Redis is now ready to exit, bye bye...
+1:C 18 Apr 2022 12:35:31.089 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Apr 2022 12:35:31.091 # Redis version=6.9.242, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Apr 2022 12:35:31.095 # Configuration loaded
+1:M 18 Apr 2022 12:35:31.097 * monotonic clock: POSIX clock_gettime
+1:M 18 Apr 2022 12:35:31.100 * Running mode=standalone, port=6379.
+1:M 18 Apr 2022 12:35:31.104 # Server initialized
+1:M 18 Apr 2022 12:35:31.106 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 18 Apr 2022 12:35:31.120 * Reading RDB base file on AOF loading...
+1:M 18 Apr 2022 12:35:31.122 * Loading RDB produced by version 6.9.242
+1:M 18 Apr 2022 12:35:31.124 * RDB age 7740 seconds
+1:M 18 Apr 2022 12:35:31.125 * RDB memory usage when created 0.82 Mb
+1:M 18 Apr 2022 12:35:31.127 * RDB is base AOF
+1:M 18 Apr 2022 12:35:31.129 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 18 Apr 2022 12:35:31.131 * DB loaded from base file appendonly.aof.1.base.rdb: 0.014 seconds
+1:M 18 Apr 2022 12:35:31.135 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.003 seconds
+1:M 18 Apr 2022 12:35:31.140 * Ready to accept connections
+1:M 18 Apr 2022 12:35:36.066 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:35:39.920 - Accepted 172.18.0.1:48948
+1:M 18 Apr 2022 12:35:39.954 - Accepted 172.18.0.1:48950
+1:M 18 Apr 2022 12:35:41.094 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:35:46.122 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:35:51.152 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:35:56.177 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:01.204 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:06.231 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:11.258 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:16.286 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:21.312 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:26.335 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:31.362 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:36.389 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:41.417 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:46.442 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:51.467 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:36:56.494 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:01.522 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:06.552 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:11.579 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:16.606 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:21.635 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:26.662 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:31.690 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:36.718 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:41.749 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:46.781 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:51.812 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:37:56.838 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:01.861 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:06.889 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:11.916 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:16.941 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:21.968 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:26.996 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:32.022 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:37.049 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:42.077 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:47.107 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:52.134 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:38:53.651 - Client closed connection id=5 addr=172.18.0.1:48948 laddr=172.18.0.2:6379 fd=9 name=127.0.0.1@6379 age=194 idle=3 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=0 omem=0 tot-mem=22272 events=r cmd=ping user=default redir=-1 resp=2
+1:M 18 Apr 2022 12:38:53.654 - Client closed connection id=6 addr=172.18.0.1:48950 laddr=172.18.0.2:6379 fd=10 name=127.0.0.1@6379 age=194 idle=191 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=0 omem=0 tot-mem=22272 events=r cmd=get user=default redir=-1 resp=2
+1:M 18 Apr 2022 12:38:57.159 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:02.185 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:07.213 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:12.239 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:17.263 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:22.280 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:27.298 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:32.321 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:37.349 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:42.371 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:47.394 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:52.423 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:39:57.449 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:40:02.473 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:40:07.495 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 12:40:12.518 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:06:31.158 * 1 changes in 900 seconds. Saving...
+1:M 18 Apr 2022 13:06:31.656 * Background saving started by pid 13
+13:C 18 Apr 2022 13:06:32.041 - Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+13:C 18 Apr 2022 13:06:32.588 * DB saved on disk
+1:M 18 Apr 2022 13:06:32.813 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+13:C 18 Apr 2022 13:06:32.886 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 18 Apr 2022 13:06:33.511 * Background saving terminated with success
+1:M 18 Apr 2022 13:06:38.580 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:06:43.609 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:06:48.646 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:06:53.673 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:06:58.695 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:03.726 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:08.755 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:13.785 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:18.814 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:23.842 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:28.870 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:33.898 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:38.931 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:43.956 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:48.983 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:54.008 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:07:59.037 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:04.065 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:09.095 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:14.126 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:19.152 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:24.180 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:29.209 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:34.235 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:39.264 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:44.293 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:49.322 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:54.348 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:08:59.377 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:04.406 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:09.437 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:14.465 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:19.491 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:24.521 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:29.554 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:34.581 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:39.611 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:44.642 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:49.674 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:54.707 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:09:59.738 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:04.770 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:09.802 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:14.835 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:19.866 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:24.895 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:29.925 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:34.952 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:39.980 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:45.011 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:50.045 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:10:55.077 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:00.109 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:05.137 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:10.165 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:15.193 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:20.224 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:25.255 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:11:30.285 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:signal-handler (1650287494) Received SIGTERM scheduling shutdown...
+1:M 18 Apr 2022 13:11:34.208 # User requested shutdown...
+1:M 18 Apr 2022 13:11:34.211 * Calling fsync() on the AOF file.
+1:M 18 Apr 2022 13:11:34.216 * Saving the final RDB snapshot before exiting.
+1:M 18 Apr 2022 13:11:34.232 * DB saved on disk
+1:M 18 Apr 2022 13:11:34.236 * Removing the pid file.
+1:M 18 Apr 2022 13:11:34.241 # Redis is now ready to exit, bye bye...
