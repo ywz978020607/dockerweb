@@ -16,7 +16,7 @@ services:
     image: myweb:latest
     build: .
     volumes:
-      - ./src:/root
+      - ./src:/src
     ports:
       - "8000:8000"
     tty: true #up启动后不会立刻退出exit, 但无法使用docker attach
