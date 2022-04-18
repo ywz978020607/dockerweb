@@ -19,6 +19,12 @@ docker save -o [file_name] [image_name]
 docker load -i [file_name]
 ```
 
+## 配置解释
+项目配置文件见docker-compose.yml  
+redis/mysql/nginx配置文件见conf/ 其中redis默认密码设置为yourpass  
+实时产出日志文件见logs/  
+给容器内使用的源码放在src:/src 见yml映射规则  
+
 ## 效果
 ```
 ~$docker-compose up -d

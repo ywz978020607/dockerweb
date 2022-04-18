@@ -314,3 +314,71 @@
 1:M 18 Apr 2022 13:30:28.463 - DB 0: 1 keys (0 volatile) in 4 slots HT.
 1:M 18 Apr 2022 13:30:33.493 - DB 0: 1 keys (0 volatile) in 4 slots HT.
 1:M 18 Apr 2022 13:30:38.519 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:30:43.544 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:30:48.570 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:30:53.598 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:30:58.626 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:03.654 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:08.685 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:13.713 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:18.742 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:23.770 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:28.799 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:33.826 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:38.850 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:31:43.877 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:signal-handler (1650288707) Received SIGTERM scheduling shutdown...
+1:M 18 Apr 2022 13:31:47.900 # User requested shutdown...
+1:M 18 Apr 2022 13:31:47.903 * Calling fsync() on the AOF file.
+1:M 18 Apr 2022 13:31:47.908 * Saving the final RDB snapshot before exiting.
+1:M 18 Apr 2022 13:31:47.927 * DB saved on disk
+1:M 18 Apr 2022 13:31:47.930 * Removing the pid file.
+1:M 18 Apr 2022 13:31:47.934 # Redis is now ready to exit, bye bye...
+1:C 18 Apr 2022 13:35:47.696 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Apr 2022 13:35:47.698 # Redis version=6.9.242, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Apr 2022 13:35:47.701 # Configuration loaded
+1:M 18 Apr 2022 13:35:47.705 * monotonic clock: POSIX clock_gettime
+1:M 18 Apr 2022 13:35:47.709 * Running mode=standalone, port=6379.
+1:M 18 Apr 2022 13:35:47.713 # Server initialized
+1:M 18 Apr 2022 13:35:47.719 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 18 Apr 2022 13:35:47.746 * Reading RDB base file on AOF loading...
+1:M 18 Apr 2022 13:35:47.750 * Loading RDB produced by version 6.9.242
+1:M 18 Apr 2022 13:35:47.752 * RDB age 11356 seconds
+1:M 18 Apr 2022 13:35:47.755 * RDB memory usage when created 0.82 Mb
+1:M 18 Apr 2022 13:35:47.757 * RDB is base AOF
+1:M 18 Apr 2022 13:35:47.759 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 18 Apr 2022 13:35:47.764 * DB loaded from base file appendonly.aof.1.base.rdb: 0.020 seconds
+1:M 18 Apr 2022 13:35:47.770 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.005 seconds
+1:M 18 Apr 2022 13:35:47.776 * Ready to accept connections
+1:M 18 Apr 2022 13:35:52.692 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:35:53.166 - Accepted 172.19.0.1:48986
+1:M 18 Apr 2022 13:35:53.258 - Accepted 172.19.0.1:48988
+1:M 18 Apr 2022 13:35:57.712 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:02.728 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:07.744 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:12.760 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:17.778 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:21.349 - Accepted 172.19.0.1:48990
+1:M 18 Apr 2022 13:36:21.414 - Accepted 172.19.0.1:48992
+1:M 18 Apr 2022 13:36:21.477 - Client closed connection id=8 addr=172.19.0.1:48992 laddr=172.19.0.2:6379 fd=12 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=16384 rbp=16384 obl=0 oll=0 omem=0 tot-mem=37632 events=r cmd=NULL user=default redir=-1 resp=2
+1:M 18 Apr 2022 13:36:22.795 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:27.812 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:32.831 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:37.850 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:42.869 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:47.887 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:52.903 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:36:57.062 - Accepted 172.19.0.1:48994
+1:M 18 Apr 2022 13:36:57.109 - Accepted 172.19.0.1:48996
+1:M 18 Apr 2022 13:36:57.923 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:37:01.764 - Client closed connection id=10 addr=172.19.0.1:48996 laddr=172.19.0.2:6379 fd=10 name=10.192.141.171@6379 age=4 idle=4 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=10 obl=0 oll=0 omem=0 tot-mem=22272 events=r cmd=client|setname user=default redir=-1 resp=2
+1:M 18 Apr 2022 13:37:01.770 - Client closed connection id=9 addr=172.19.0.1:48994 laddr=172.19.0.2:6379 fd=9 name=10.192.141.171@6379 age=4 idle=4 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=0 omem=0 tot-mem=22272 events=r cmd=info user=default redir=-1 resp=2
+1:M 18 Apr 2022 13:37:02.940 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:M 18 Apr 2022 13:37:07.957 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+1:signal-handler (1650289028) Received SIGTERM scheduling shutdown...
+1:M 18 Apr 2022 13:37:08.762 # User requested shutdown...
+1:M 18 Apr 2022 13:37:08.764 * Calling fsync() on the AOF file.
+1:M 18 Apr 2022 13:37:08.768 * Saving the final RDB snapshot before exiting.
+1:M 18 Apr 2022 13:37:08.779 * DB saved on disk
+1:M 18 Apr 2022 13:37:08.781 * Removing the pid file.
+1:M 18 Apr 2022 13:37:08.783 # Redis is now ready to exit, bye bye...
